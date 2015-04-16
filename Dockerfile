@@ -9,7 +9,7 @@ RUN \
 
 RUN \
     cd nvim && \
-    git checkout 5709181243536f0a9f23dc4a8d87fe75cc32537d^ && \
+    git checkout 5709181243536f0a9f23dc4a8d87fe75cc32537d && \
     make && make install && \
     cd ../ && rm -rf nvim
 
